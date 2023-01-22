@@ -10,12 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <!--Custom styles-->
         <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
    <!--Heder section-->
     <header class="main-header">
+        <div class="header-container container">
         <nav class="nav">
         <a class="logo link" href="./index.html">
             <span class="accent-logo">Web</span>Studio
@@ -29,58 +31,64 @@
                 <a class="menu-link link" href="">Contacts</a></li>
         </ul>
         </nav>
-        <ul class="list">
+        <ul class="contact list">
             <li><a class="mail link" href="mailto:">info@devstudio.com</a></li>
             <li><a class="phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
+        </div>
        </header>
     <main>
         <!--Hero section-->
         <section class="hero">
+        <div class="container">
             <h1 class="main-title">Effective Solutions for Your Business</h1>
             <button class="btn" type="button"><p>Order Service</p></button>
         </section>
+        </div>
         <!--About section-->
         <section class="about">
-            <h2 hidden>our differences</h2>
-            <ul class="list">
-                <li class="text-item">
+        <div class="container">
+            <h2 class="visually-hidden">our differences</h2>
+            <ul class="card-set about-list list">
+                <li class="card-set-item text-item">
                     <h3 class="caption">Strategy</h3>
                     <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
-                <li class="text-item">
+                <li class="card-set-item text-item">
                     <h3 class="caption">Punctuality</h3>
                     <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
-                <li class="text-item">
+                <li class="card-set-item text-item">
                     <h3 class="caption">Diligence</h3>
                     <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-                <li class="text-item">
+                <li class="card-set-item text-item">
                     <h3 class="caption">Technologies</h3>
                     <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
+        </div>
         </section>
         <!--What are we doing section-->
         <section class="our-projects">
+        <div class="container">
             <h2 class="heading">What are we doing</h2>
-            <ul class="list">
-                <li class="pic-item">
+            <ul class="card-set projects-list list">
+                <li class="card-set-item pic-item">
                     <img class="pic"
                     src="./images/img1.jpg"
                     alt="monitor" 
                     width="360"
                     />
                 </li>
-                <li class="pic-item">
+                <li class="card-set-item pic-item">
                     <img class="pic"
                     src="./images/img2.jpg" 
                     alt="phone" 
                     width="360"
                     />
                 </li>
-                <li class="pic-item">
+                <li class="card-set-item pic-item">
                     <img class="pic"
                     src="./images/img3.jpg" 
                     alt="phone" 
@@ -88,40 +96,53 @@
                     />
                 </li>
             </ul>
+        </div>
         </section>
         <!--Team section-->
         <section class="team">
+        <div class="container">
             <h2 class="heading">Our Team</h2>
-            <ul class="list">
-            <li class="img-item">
+            <ul class="card-set team-list list">
+                <li class="card-set-item img-item">
                 <img src="./images/markguerrero.jpg" alt="man" width="264" />
-                <h3 class="caption">Mark Guerrero</h3>
-                <p class="text">Product Designer</p>
+                <div class="team-wrapper">
+                <h3 class="caption text-center">Mark Guerrero</h3>
+                <p class="text text-center-two">Product Designer</p>
+                </div>
             </li>
-            <li class="img-item">
+            <li class="card-set-item img-item">
                 <img src="./images/tomford.jpg" alt="man" width="264" />
-                <h3 class="caption">Tom Ford</h3>
-                <p class="text">Frontend Developer</p>
+                <div class="team-wrapper">
+                <h3 class="caption text-center">Tom Ford</h3>
+                <p class="text text-center-two">Frontend Developer</p>
+            </div>
             </li>
-            <li class="img-item">
+            <li class="card-set-item img-item">
                 <img src="./images/camilagarcia.jpg" alt="woman" width="264" />
-                <h3 class="caption">Camila Garcia</h3>
-                <p class="text">Marketing</p>
+                <div class="team-wrapper">
+                <h3 class="caption text-center">Camila Garcia</h3>
+                <p class="text text-center-two">Marketing</p>
+            </div>
             </li>
-            <li class="img-item">
+            <li class="card-set-item img-item">
                 <img src="./images/danielwilson.jpg" alt="man" width="264"/>
-                <h3 class="caption">Daniel Wilson</h3>
-                <p class="text">UI Designer</p>
+                <div class="team-wrapper">
+                <h3 class="caption text-center">Daniel Wilson</h3>
+                <p class="text text-center-two">UI Designer</p>
+            </div>
             </li>
             </ul>
+        </div>
         </section>
     </main>
     <!--Footer section-->
     <footer class="footer">
+        <div class="container">
       <a class="logo link" href="./index.html">
         <span class="accent-logo">Web</span><span class="accent-logo-two">Studio</span>
       </a>
         <p class="text light-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        </div>
     </footer>
 </body>
 </html>
