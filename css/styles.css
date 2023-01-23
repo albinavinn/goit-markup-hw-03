@@ -111,8 +111,6 @@ img {
 
 .main-header {
     background-color: var(--background-white);
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid var(--accent)
 }
 
@@ -128,7 +126,6 @@ img {
 }
 
 .logo {
-    width: 44px;
     height: 24px;
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -147,7 +144,6 @@ img {
 .menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .menu-link {
@@ -157,8 +153,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     color: var(--modal-overlay);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -352,11 +348,15 @@ img {
 
 /* FILTERS */
 
+.filters{
+padding-top: 96px;
+padding-bottom: 120px;
+}
+
 .btn-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -379,10 +379,8 @@ img {
 }
 
 .portfolio-list {
-    --indent: 24px;
+    --indent: 48px 24px;
     --items: 3;
-
-    padding-bottom: 120px;
 }
 
 .portfolio-wrapper {
